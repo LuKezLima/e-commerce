@@ -103,10 +103,11 @@ export const GalleryProduct = styled.div<{
         background-color: #fff;
         align-items: center;
         justify-content: center;
-        padding: 1.3rem;
+        padding: 1.1rem;
         border-radius: 50%;
         cursor: pointer;
         display: none;
+      
 
         @media screen and (max-width:600px) {
             display: flex;
@@ -121,10 +122,10 @@ export const GalleryProduct = styled.div<{
 
     #nextIcon{
         
-       right: 1rem;
+       right: .8rem;
     }
     #previousIcon{
-       left: 1rem;
+       left: .8rem;
     }
        
  
