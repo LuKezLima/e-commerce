@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import {GlobalStyle} from './GlobalStyles';
 import reportWebVitals from './reportWebVitals';
+import { FormProvider as ProviderActiveMenu } from './contexts/ActiveMenuContext'
 
 ReactDOM.render(
+  
   <React.StrictMode>
+    <ProviderActiveMenu>
     <App />
+    </ProviderActiveMenu>
   </React.StrictMode>,
   document.getElementById('root')
 );
